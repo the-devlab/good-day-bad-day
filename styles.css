@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face {
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.smiley {
+  display: none;
+}
+
+.frown {
+  display: none;
+}
+
+.active {
+  display: block;
+}
